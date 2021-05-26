@@ -17,7 +17,6 @@ class InstragamBot:
         # Variável Senha
         self.password = password
         #Recuperando o driver para abrir o navegador (Firefox)
-        #self.driver = webdriver.Firefox(executable_path="C:\\Users\\Gustavo Nascimento\\Desktop\\geckodriver\\geckodriver.exe")
         self.driver = webdriver.Firefox(executable_path="C:\\Users\\Public\\Documents\\Bot_Python\\geckodriver\\geckodriver.exe")
 
     def entrarIntagram(self):
